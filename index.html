@@ -2,582 +2,625 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Luis Herrera</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Compiled and minified CSS -->
-   <style>
-   .container{background-color:#f5f5f5;color:#000}h5,h6{font-family:'Lobster',cursive}.active{background-color:#448ef6}.navb{position:fixed;z-index:2;justify-content:center;width:100%;background-color:#000;display:block;color:#448ef6}.nav{justify-content:center}.navb a{color:#ceddef;font-size:1.3em;opacity:.8}i{font-size:1.2em;color:#ceddef;margin-left:10px;opacity:.8}.portada{background-size:100%;height:650px;border:0 #0F100B solid;color:#f0f8ff;position:relative;margin-top:41px}.card{border:1px #448ef6 solid;margin-top:15px}.center{margin-top:230px;margin-left:20px}.aboutMe{min-width:200px;width:300px;height:300px;display:block;margin-top:90px;border-radius:30%}.aboutMe h5,h6{font-size:1.3em}.card-text{margin-top:0;margin-bottom:0}.consola{font-family:'Inconsolata',monospace;color:#00FF03;height:300px}.consola h5{color:#00FF03;font-family:'Inconsolata',monospace}.grid-container-portada{display:grid;grid-template-columns:auto auto;background-color:rgba(0,0,0,.6);height:650px;justify-content:center;margin-bottom:30px}.grid-item-portada{margin-bottom:20px}h5,h6{color:#448ef6}.dark{background-color:#000}.dark-opacity{background:rgba(0,0,0,0);padding:20px;width:100%}.dark-opacity1{background:rgba(0,0,0,.9);padding:20px;width:100%}.row{width:100%;padding-right:0;margin-left:0}.col-12{padding-right:0;padding-left:0}h6{font-weight:700}.btn{margin-bottom:30px}.modal-content,.modal .card{background-color:#f1f1f1}.responsive{width:300px;margin:auto;border:2px solid rgba(0,0,0,.2)}@media screen and (max-width:991.98px){.portada{background-repeat:no-repeat;margin-top:41px;height:423px}.center{margin-top:240px;margin-left:0}.navb a{font-size:1em}i{font-size:1.1em;margin-left:5px}}@media only screen and (max-width:590px){.aboutMe{color:#423f3f}.aboutMe{min-width:200px;width:300px;height:200px;margin-top:20px}.img-perfil img{width:200px;height:200px}.grid-container-portada{display:grid;grid-template-columns:auto;grid-gap:5px;background-color:rgba(0,0,0,0);justify-items:center;height:300px}.grid-item-portada{margin-top:20px}.portada{height:500px;background-repeat:no-repeat;margin-top:41px}.center{margin-top:0;margin-left:0}.dark-opacity1{background:rgba(0,0,0,0);margin-top:60px}.item2{margin-top:53px}.navb a{font-size:.8em;padding-right:10px}i{font-size:1em;margin-left:3px}.aboutMe h5,h6{font-size:1em}.portada{margin-top:34px}body{background-color:#f5f5f5}.aboutmeResponsive{margin-top:30px}}
-   </style>
-</head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Luis Herrera</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Compiled and minified CSS -->
+	<!-- <style>
+		.container{background-color:#f5f5f5;color:#000}h5,h6{font-family:'Lobster',cursive}.active{background-color:#448ef6}.navb{position:fixed;z-index:2;justify-content:center;width:100%;background-color:#000;display:block;color:#448ef6}.nav{justify-content:center}.navb a{color:#ceddef;font-size:1.3em;opacity:.8}i{font-size:1.2em;color:#ceddef;margin-left:10px;opacity:.8}.portada{background-size:100%;height:650px;border:0 #0F100B solid;color:#f0f8ff;position:relative;margin-top:41px}.card{border:1px #448ef6 solid;margin-top:15px}.center{margin-top:230px;margin-left:20px}.aboutMe{min-width:200px;width:300px;height:300px;display:block;margin-top:90px;border-radius:30%}.aboutMe h5,h6{font-size:1.3em}.card-text{margin-top:0;margin-bottom:0}.consola{font-family:'Inconsolata',monospace;color:#00FF03;height:300px}.consola h5{color:#00FF03;font-family:'Inconsolata',monospace}.grid-container-portada{display:grid;grid-template-columns:auto auto;background-color:rgba(0,0,0,.6);height:650px;justify-content:center;margin-bottom:30px}.grid-item-portada{margin-bottom:20px}h5,h6{color:#448ef6}.dark{background-color:#000}.dark-opacity{background:rgba(0,0,0,0);padding:20px;width:100%}.dark-opacity1{background:rgba(0,0,0,.9);padding:20px;width:100%}.row{width:100%;padding-right:0;margin-left:0}.col-12{padding-right:0;padding-left:0}h6{font-weight:700}.btn{margin-bottom:30px}.modal-content,.modal .card{background-color:#f1f1f1}.responsive{width:300px;margin:auto;border:2px solid rgba(0,0,0,.2)}@media screen and (max-width:991.98px){.portada{background-repeat:no-repeat;margin-top:41px;height:423px}.center{margin-top:240px;margin-left:0}.navb a{font-size:1em}i{font-size:1.1em;margin-left:5px}}@media only screen and (max-width:590px){.aboutMe{color:#423f3f}.aboutMe{min-width:200px;width:300px;height:200px;margin-top:20px}.img-perfil img{width:200px;height:200px}.grid-container-portada{display:grid;grid-template-columns:auto;grid-gap:5px;background-color:rgba(0,0,0,0);justify-items:center;height:300px}.grid-item-portada{margin-top:20px}.portada{height:500px;background-repeat:no-repeat;margin-top:41px}.center{margin-top:0;margin-left:0}.dark-opacity1{background:rgba(0,0,0,0);margin-top:60px}.item2{margin-top:53px}.navb a{font-size:.8em;padding-right:10px}i{font-size:1em;margin-left:3px}.aboutMe h5,h6{font-size:1em}.portada{margin-top:34px}body{background-color:#f5f5f5}.aboutmeResponsive{margin-top:30px}}
+   </style> -->
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+	 <link rel="stylesheet" href="./style.min.css">
+	</head>
 
 <body>
 
-    <div class="navb">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Luis Herrera</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills<i class="fas fa-portrait"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portafolio">Portafolio<i class="fas fa-project-diagram"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto<i class="fas fa-phone-square"></i></a>
-            </li>
-        </ul>
-    </div>
+	<div class="navb">
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Luis Herrera</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">Skills<i class="fas fa-portrait"></i></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#portafolio">Portafolio<i class="fas fa-project-diagram"></i></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contacto">Contacto<i class="fas fa-phone-square"></i></a>
+			</li>
+		</ul>
+	</div>
 
-    <div class="row">
-        <div class="col-12">
+	<div class="row">
+		<div class="col-12">
 
-            <div class="portada" style="background-image: url('./images/background4.jpg');">
-                <div class="grid-container-portada">
+			<div class="portada" style="background-image: url('./images/background4.jpg');">
+				<div class="grid-container-portada">
 
-                    <div class="grid-item-portada">
-                        <div class="aboutMe">
-                            <div class="jumbotron dark-opacity" style="border-radius: 5%;">
-                                <div class="img-perfil" style="text-align: center; ">
-                                    <img src="./images/yo4.jpg" alt="" height="230" width="230" style="margin-bottom: 20px; border-radius: 50%;">
+					<div class="grid-item-portada">
+						<div class="aboutMe">
+							<div class="jumbotron dark-opacity" style="border-radius: 5%;">
+								<div class="img-perfil" style="text-align: center; ">
+									<img src="./images/yo4.jpg" alt="" height="230" width="230" style="margin-bottom: 20px; border-radius: 50%;">
 
-                                    <h5 class="card-title text-muted" style="font-size: 1.3em;"><strong>Luis Enrique Herrera Grande</strong></h5>
-                                    <h6 class="card-subtitle" style="font-size: 1.3em;"><strong>Frontend Developer</strong></h6>
-                                    <p class="card-text"> Web | Responsive Desing | JS</p>
+									<h5 class="card-title text-muted" style="font-size: 1.3em;"><strong>Luis Enrique Herrera Grande</strong></h5>
+									<h6 class="card-subtitle" style="font-size: 1.3em;"><strong>Frontend Developer</strong></h6>
+									<p class="card-text"> Web | Responsive Desing | JS</p>
 
-                                    <div id="typed-strings">
-                                        <p><strong>HTML 5</strong>.</p>
-                                        <p><strong>JavaScript</strong>.</p>
-                                        <p><strong>Angular</strong>.</p>
-                                        <p><strong>Bootstrap</strong>.</p>
-                                        <p><strong>Node Js</strong>.</p>
-                                        <p><strong>Typescript</strong>.</p>
-                                        <p><strong>React Js</strong>.</p>
-                                    </div>
-                                    <p class="typ">Desarrollo con <strong><span id="typed"></span></strong></p>
-                                </div>
-                            </div>
-                        </div>
+									<div id="typed-strings">
+										<p><strong>HTML 5</strong>.</p>
+										<p><strong>JavaScript</strong>.</p>
+										<p><strong>Angular</strong>.</p>
+										<p><strong>Bootstrap</strong>.</p>
+										<p><strong>Node Js</strong>.</p>
+										<p><strong>Typescript</strong>.</p>
+										<p><strong>React Js</strong>.</p>
+									</div>
+									<p class="typ">Desarrollo con <strong><span id="typed"></span></strong></p>
+								</div>
+							</div>
+						</div>
 
-                    </div>
-                    <div class="grid-item-portada item2">
-                        <div class="aboutMe">
-                            <div class="jumbotron dark-opacity1 center" style="border-radius: 5%;">
+					</div>
+					<div class="grid-item-portada item2">
+						<div class="aboutMe">
+							<div class="jumbotron dark-opacity1 center" style="border-radius: 5%;">
 
-                                <h6 class="card-subtitle text-muted" style="text-align: center; font-size: 1.2em;"> <strong>Acerca de mi</strong></h6>
-                                <p class="card-text" style="text-align: center;">Desarrollador Web, con conocimiento en distintos lenguajes de programación (backend / frontend), enfocado en desarrollo Frontend y con interes por nuevas tecnologías.
-                                </p>
+								<h6 class="card-subtitle text-muted" style="text-align: center; font-size: 1.2em;"> <strong>Acerca de mi</strong></h6>
+								<p class="card-text" style="text-align: center;">Desarrollador Web, con conocimiento en distintos lenguajes de
+									programación (backend / frontend), enfocado en desarrollo Frontend y con interes por nuevas tecnologías.
+								</p>
 
-                            </div>
-                        </div>
+							</div>
+						</div>
 
-                    </div>
-                </div>
-
-
-            </div>
+					</div>
+				</div>
 
 
-
-        </div>
-    </div>
-    <div class="container">
-        <div id="experiencia" style="height: 50px;">
-
-        </div>
-
-        <div class="row aboutmeResponsive justify-content-center">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="card dark consola">
-                    <div class="card-body">
-                        <h5 class="card-title">Desarrollador Frontend</h5>
-                        <p class="card-text">Actualmente y en mis ultimos proyectos he estado enfocado en el desarrollo para usuarios, manejando diferentes frameworks de Javascript (React JS y Angular). Sin inclinarme especificamente a una ya que en realidad me enfoco en
-                            todas las tecnologías para el desarrollo Frontend.
-                        </p>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+			</div>
 
 
-        <div id="skills" style="height: 50px;">
-            <hr>
-        </div>
-        <h1>Skills</h1>
-        <div class="grid-container-skill">
-            <div class="grid-item-skill">
-                <h4>Bootstrap</h4>
-                <img src="./images/iconfinder_Bootstrap_682700.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>Angular</h4>
-                <img src="./images/iconfinder_angular_1145600.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>React</h4>
-                <img src="./images/iconfinder_react_1296845.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
 
-            <div class="grid-item-skill">
-                <h4>MySQL</h4>
-                <img src="./images/iconfinder_my_sql_682683.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>Composer</h4>
-                <img src="./images/logo-composer.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>Sass</h4>
-                <img src="./images/sass.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="experiencia" style="height: 50px;">
 
-            <div class="grid-item-skill">
-                <h4>NPM</h4>
-                <img src="./images/npm.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>Git</h4>
-                <img src="./images/Git-Logo.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>PostMan</h4>
-                <img src="./images/postman-logo.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
+		</div>
 
-            <div class="grid-item-skill">
-                <h4>Redux</h4>
-                <img src="./images/logoredux.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>Api REST</h4>
-                <img src="./images/rest.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>VS Code</h4>
-                <img src="./images/iconfinder_Visual_Code_1082429.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
+		<div class="row aboutmeResponsive justify-content-center">
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<div class="card dark consola">
+					<div class="card-body">
+						<h5 class="card-title">Desarrollador Frontend</h5>
+						<p class="card-text">Actualmente y en mis ultimos proyectos he estado enfocado en el desarrollo para usuarios,
+							manejando diferentes frameworks de Javascript (React JS y Angular). Sin inclinarme especificamente a una ya que
+							en realidad me enfoco en
+							todas las tecnologías para el desarrollo Frontend.
+						</p>
 
-            <div class="grid-item-skill">
-                <h4>XAMPP</h4>
-                <img src="./images/iconfinder_XAMPP_96018.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>CSS3</h4>
-                <img src="./images/iconfinder_badge-css-3_317756.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>HTML5</h4>
-                <img src="./images/iconfinder_html5_294678.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
+					</div>
+				</div>
 
-            <div class="grid-item-skill">
-                <h4>Node js</h4>
-                <img src="./images/iconfinder_node_3069651.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>PHP</h4>
-                <img src="./images/iconfinder_php-logo_1012812.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
+			</div>
 
-            <div class="grid-item-skill">
-                <h4>JavaScript</h4>
-                <img src="./images/iconfinder_code-programming-javascript-software-develop-command-language_652581.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>JAVA</h4>
-                <img src="./images/iconfinder_code-programming-java-software-develop-command-language_652579.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
+		</div>
 
-            <div class="grid-item-skill">
-                <h4>C#</h4>
-                <img src="./images/csharp.png" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-            <div class="grid-item-skill">
-                <h4>SQL Server</h4>
-                <img src="./images/microsoft-sql-server.svg" alt="">
-                <div class="progress">
-                    <div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div id="portafolio" style="height: 50px;">
-                    <hr>
-                </div>
-                <h1 style="margin-bottom: 30px;">Portafolio (proyectos)</h1>
-                <div class="container-portafolio">
-                    <div class="item-portafolio i1">
-                        <div class="contenido-portafolio">
-                            <h2>Html5 y Css3</h2>
-                            <span style="display: block;">Desktop and Responsive Design</span>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#DevelopmentWebModalLong">Ver mas</button>
-                        </div>
+		<div id="skills" style="height: 50px;">
+			<hr>
+		</div>
+		<h1>Skills</h1>
+		<div class="grid-container-skill">
+			<div class="grid-item-skill">
+				<h4>Bootstrap</h4>
+				<img src="./images/iconfinder_Bootstrap_682700.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+					 aria-valuemax="100">75%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>Angular</h4>
+				<img src="./images/iconfinder_angular_1145600.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+					 aria-valuemax="100">80%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>React</h4>
+				<img src="./images/iconfinder_react_1296845.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
 
-                    </div>
-                    <div class="item-portafolio i2">
+			<div class="grid-item-skill">
+				<h4>MySQL</h4>
+				<img src="./images/iconfinder_my_sql_682683.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>Composer</h4>
+				<img src="./images/logo-composer.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>Sass</h4>
+				<img src="./images/sass.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
 
-                        <div class="contenido-portafolio">
-                            <h2>React JS</h2>
-                            <span style="display: block;">Interfaz de un reproductor de video</span>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ReactModalLong">Ver mas</button>
-                        </div>
-                    </div>
-                    <div class="item-portafolio i3">
-                        <div class="contenido-portafolio">
-                            <h2>Angular & C#</h2>
-                            <span style="display: block;">CRUD para informacion organizacional</span>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EncompassModalLong">Ver mas</button>
-                        </div>
+			<div class="grid-item-skill">
+				<h4>NPM</h4>
+				<img src="./images/npm.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>Git</h4>
+				<img src="./images/Git-Logo.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>PostMan</h4>
+				<img src="./images/postman-logo.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
 
-                    </div>
-                    <div class="item-portafolio i4">
-                        <div class="contenido-portafolio">
-                            <h2>Angular</h2>
-                            <span style="display: block;">Lugares Angular y firebase</span>
-                            <button class="btn btn-primary">Ver mas</button>
-                        </div>
-                    </div>
-                    <div class="item-portafolio i5">
-                        <div class="contenido-portafolio">
-                            <h2>Angular 5</h2>
-                            <span style="display: block;">Modulo de encuestas</span>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EncuestasModalLong">Ver mas</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+			<div class="grid-item-skill">
+				<h4>Redux</h4>
+				<img src="./images/logoredux.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+					 aria-valuemax="100">75%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>Api REST</h4>
+				<img src="./images/rest.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+					 aria-valuemax="100">80%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>VS Code</h4>
+				<img src="./images/iconfinder_Visual_Code_1082429.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
 
-        <!-- Button trigger modal -->
-        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+			<div class="grid-item-skill">
+				<h4>XAMPP</h4>
+				<img src="./images/iconfinder_XAMPP_96018.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>CSS3</h4>
+				<img src="./images/iconfinder_badge-css-3_317756.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>HTML5</h4>
+				<img src="./images/iconfinder_html5_294678.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+
+			<div class="grid-item-skill">
+				<h4>Node js</h4>
+				<img src="./images/iconfinder_node_3069651.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>PHP</h4>
+				<img src="./images/iconfinder_php-logo_1012812.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+
+			<div class="grid-item-skill">
+				<h4>JavaScript</h4>
+				<img src="./images/iconfinder_code-programming-javascript-software-develop-command-language_652581.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>JAVA</h4>
+				<img src="./images/iconfinder_code-programming-java-software-develop-command-language_652579.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+
+			<div class="grid-item-skill">
+				<h4>C#</h4>
+				<img src="./images/csharp.png" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+			<div class="grid-item-skill">
+				<h4>SQL Server</h4>
+				<img src="./images/microsoft-sql-server.svg" alt="">
+				<div class="progress">
+					<div class="progress-bar verde" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+					 aria-valuemax="100">25%</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="portafolio" style="height: 50px;">
+					<hr>
+				</div>
+				<h1 style="margin-bottom: 30px;">Portafolio (proyectos)</h1>
+				<div class="container-portafolio">
+					<div class="item-portafolio i1">
+						<div class="contenido-portafolio">
+							<h2>Html5 y Css3</h2>
+							<span style="display: block;">Desktop and Responsive Design</span>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#DevelopmentWebModalLong">Ver mas</button>
+						</div>
+
+					</div>
+					<div class="item-portafolio i2">
+
+						<div class="contenido-portafolio">
+							<h2>React JS</h2>
+							<span style="display: block;">Interfaz de un reproductor de video</span>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ReactModalLong">Ver mas</button>
+						</div>
+					</div>
+					<div class="item-portafolio i3">
+						<div class="contenido-portafolio">
+							<h2>Angular & C#</h2>
+							<span style="display: block;">CRUD para informacion organizacional</span>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EncompassModalLong">Ver mas</button>
+						</div>
+
+					</div>
+					<div class="item-portafolio i4">
+						<div class="contenido-portafolio">
+							<h2>Angular</h2>
+							<span style="display: block;">Lugares Angular y firebase</span>
+							<button class="btn btn-primary">Ver mas</button>
+						</div>
+					</div>
+					<div class="item-portafolio i5">
+						<div class="contenido-portafolio">
+							<h2>Angular 5</h2>
+							<span style="display: block;">Modulo de encuestas</span>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EncuestasModalLong">Ver mas</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Button trigger modal -->
+		<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
     Launch demo modal
   </button> -->
-        <!-- Modal -->
-        <div class="modal fade" id="DevelopmentWebModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="false" data-backdrop="static">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Pagina Web (Muestra)</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                    </div>
-                    <div class="modal-body">
-                        <a href="#desktop">Desktop</a> |
-                        <a href="#responsive">Responsive</a>
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title" id="desktop">Desktop desing</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            <img src="./images/ukuleleland-web.png" class="card-img-top" alt="...">
+		<!-- Modal -->
+		<div class="modal fade" id="DevelopmentWebModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		 aria-hidden="false" data-backdrop="static">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Pagina Web (Muestra)</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<a href="#desktop">Desktop</a> |
+						<a href="#responsive">Responsive</a>
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title" id="desktop">Desktop desing</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+									content. This content is a little bit longer.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+							<img src="./images/ukuleleland-web.png" class="card-img-top" alt="...">
 
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title" id="responsive">Responsive design</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            <img src="./images/ukuleleland-responsive.png" class="responsive" alt="...">
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title" id="responsive">Responsive design</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+									content. This content is a little bit longer.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+							<img src="./images/ukuleleland-responsive.png" class="responsive" alt="...">
 
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <!-- Modal react-->
-        <div class="modal fade" id="ReactModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="false" data-backdrop="static">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Reproductor de video</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            <img src="./images/react-design.png" class="card-img-top" alt="...">
+		<!-- Modal react-->
+		<div class="modal fade" id="ReactModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		 aria-hidden="false" data-backdrop="static">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						...
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Reproductor de video</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+									content. This content is a little bit longer.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+							<img src="./images/react-design.png" class="card-img-top" alt="...">
 
-                        </div>
+						</div>
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <!-- Modal Encompass-->
-        <div class="modal fade" id="EncompassModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="false" data-backdrop="static">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">EnCompass</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">CRUD de datos</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                            <img src="./images/encompass.png" class="card-img-top" alt="...">
+		<!-- Modal Encompass-->
+		<div class="modal fade" id="EncompassModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		 aria-hidden="false" data-backdrop="static">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">EnCompass</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						...
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">CRUD de datos</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+									content. This content is a little bit longer.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+							<img src="./images/encompass.png" class="card-img-top" alt="...">
 
-                        </div>
+						</div>
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <!-- Modal Encuestas-->
-        <div class="modal fade" id="EncuestasModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="false" data-backdrop="static">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Encuestas</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                    </div>
-                    <div class="modal-body">
-                        responsive
-                        <nav>
-                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Encuestas</a>
-                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Bienvenida</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Preguntas</a>
-                                <a class="nav-item nav-link" id="nav-preview-tab" data-toggle="tab" href="#nav-preview" role="tab" aria-controls="nav-preview" aria-selected="false">Vista Previa</a>
-                            </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Modulo de encuestas</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                    <img src="./images/encuestas-view.png" class="card-img-top" alt="...">
+		<!-- Modal Encuestas-->
+		<div class="modal fade" id="EncuestasModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		 aria-hidden="false" data-backdrop="static">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Encuestas</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						responsive
+						<nav>
+							<div class="nav nav-tabs" id="nav-tab" role="tablist">
+								<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+								 aria-controls="nav-home" aria-selected="true">Encuestas</a>
+								<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+								 aria-controls="nav-profile" aria-selected="false">Bienvenida</a>
+								<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+								 aria-controls="nav-contact" aria-selected="false">Preguntas</a>
+								<a class="nav-item nav-link" id="nav-preview-tab" data-toggle="tab" href="#nav-preview" role="tab"
+								 aria-controls="nav-preview" aria-selected="false">Vista Previa</a>
+							</div>
+						</nav>
+						<div class="tab-content" id="nav-tabContent">
+							<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Modulo de encuestas</h5>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+											content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+									<img src="./images/encuestas-view.png" class="card-img-top" alt="...">
 
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Sección de Bienvenida</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                    <img src="./images/bienvenida-encuestas.png" class="card-img-top" alt="...">
+								</div>
+							</div>
+							<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Sección de Bienvenida</h5>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+											content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+									<img src="./images/bienvenida-encuestas.png" class="card-img-top" alt="...">
 
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Sección de Preguntas</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                    <img src="./images/preguntas-view.png" class="card-img-top" alt="...">
+								</div>
+							</div>
+							<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Sección de Preguntas</h5>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+											content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+									<img src="./images/preguntas-view.png" class="card-img-top" alt="...">
 
-                                </div>
-                            </div>
+								</div>
+							</div>
 
-                            <div class="tab-pane fade" id="nav-preview" role="tabpanel" aria-labelledby="nav-preview-tab">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Sección vista previa</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                    <img src="./images/preview.png" class="card-img-top" alt="...">
+							<div class="tab-pane fade" id="nav-preview" role="tabpanel" aria-labelledby="nav-preview-tab">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Sección vista previa</h5>
+										<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+											content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+									<img src="./images/preview.png" class="card-img-top" alt="...">
 
-                                </div>
-                            </div>
+								</div>
+							</div>
 
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    </div>
-    <!-- </div> -->
-    <div id="contacto" style="height: 50px;">
+	</div>
+	<!-- </div> -->
+	<div id="contacto" style="height: 50px;">
 
-    </div>
-    <div class="row text-center cont">
+	</div>
+	<div class="row text-center cont">
 
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <h1>Contacto</h1>
-            <ul class="text-left">
-                <li>
-                    <a href="tel:5516652344">
-                        <i class="fas fa-phone"></i>
-                        <h4 class="contact">16-65-23-44</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="tel:5538605881">
-                        <i class="fas fa-mobile-alt" style="color:white;"></i>
-                        <h4 class="contact">55 3860-5881</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://api.whatsapp.com/send?phone=5215538605881" target="blank">
-                        <i class="fab fa-whatsapp" style="color:#09D261;"></i>
-                        <h4 class="contact">55 3860-5881</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:luis_enrique_hg@hotmail.com" target="blank">
-                        <i class="fas fa-at" style="color:#D04834"></i>
-                        <h4 class="contact">luis_enrique_hg@hotmail.com</h4>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <img class="animated infinite bounce delay-4s slow" src="./images/contact.png" alt="" width="300" height="300">
-        </div>
-    </div>
+		<div class="col-sm-12 col-md-6 col-lg-6">
+			<h1>Contacto</h1>
+			<ul class="text-left">
+				<li>
+					<a href="tel:5516652344">
+						<i class="fas fa-phone"></i>
+						<h4 class="contact">16-65-23-44</h4>
+					</a>
+				</li>
+				<li>
+					<a href="tel:5538605881">
+						<i class="fas fa-mobile-alt" style="color:white;"></i>
+						<h4 class="contact">55 3860-5881</h4>
+					</a>
+				</li>
+				<li>
+					<a href="https://api.whatsapp.com/send?phone=5215538605881" target="blank">
+						<i class="fab fa-whatsapp" style="color:#09D261;"></i>
+						<h4 class="contact">55 3860-5881</h4>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:luis_enrique_hg@hotmail.com" target="blank">
+						<i class="fas fa-at" style="color:#D04834"></i>
+						<h4 class="contact">luis_enrique_hg@hotmail.com</h4>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-6">
+			<img class="animated infinite bounce delay-4s slow" src="./images/contact.png" alt="" width="300" height="300">
+		</div>
+	</div>
 
-    <footer class="footer align-middle">
-        <div class="row align-middle" style="height: 100%;">
-            <div class="col-4 align-middle">
-                <h6>Desarrollo & Diseño</h6>
-            </div>
-            <div class="col-4 align-middle">
-                <a href="http://github.com/LuisH22" target="blank"><img src="./images/github-logo.png" width="60" height="60" alt=""></a>
-            </div>
-            <div class="col-4 align-middle">
-                <h6>Luis Enrique Herrera Grande</h6>
-            </div>
-        </div>
-    </footer>
+	<footer class="footer align-middle">
+		<div class="row align-middle" style="height: 100%;">
+			<div class="col-4 align-middle">
+				<h6>Desarrollo & Diseño</h6>
+			</div>
+			<div class="col-4 align-middle">
+				<a href="http://github.com/LuisH22" target="blank"><img src="./images/github-logo.png" width="60" height="60" alt=""></a>
+			</div>
+			<div class="col-4 align-middle">
+				<h6>Luis Enrique Herrera Grande</h6>
+			</div>
+		</div>
+	</footer>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-
-    <link rel="stylesheet" href="./style.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Inconsolata" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <script>
-        var typed = new Typed('#typed', {
-            stringsElement: '#typed-strings',
-            loop: true,
-            typeSpeed: 15,
-            backSpeed: 30,
-            backDelay: 1500
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<script>
+		var typed = new Typed('#typed', {
+			stringsElement: '#typed-strings',
+			loop: true,
+			typeSpeed: 15,
+			backSpeed: 30,
+			backDelay: 1500
 
 
-        });
-    </script>
+		});
+	</script>
 </body>
 
 </html>
